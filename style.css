@@ -1,0 +1,68 @@
+.square_main {
+    margin-left: 100px;
+    position: relative;
+    animation: first 2s ease-in-out infinite alternate;
+    fill: rgb(255, 0, 174);
+}
+.circle_main {
+    margin-left: 100px;
+    position: relative;
+    animation: second 2s ease-in-out infinite alternate;
+    fill: red;
+}
+.rectangle_main {
+    margin-left: 100px;
+    position: relative;
+    animation: third 2s ease-in-out infinite alternate;
+    fill: green;
+}
+.ellipse_main {
+    margin-left: 100px;
+    position: relative;
+    animation: fourth 2s ease-in-out infinite alternate;
+    fill: yellow;
+}
+@keyframes first {
+    0% {
+        top: 0px;
+    }
+    25% {
+        fill: blue;
+    }
+    100% {
+        top: 600px;
+    }
+}
+@keyframes second {
+    0% {
+        top: 0px;
+    }    
+    50% {
+        fill: blue;
+    }
+    100% {
+        top: 600px;
+    }    
+}
+@keyframes third {
+    0% {
+        top: 0px;
+    }
+    75% {
+        fill: blue;
+    }
+    100% {
+        top: 600px;
+    }  
+}
+@keyframes fourth {
+    0% {
+        top: 0px;
+    }
+    100% {
+        fill: blue;
+    }
+    100% {
+        top: 600px;
+    }
+}
